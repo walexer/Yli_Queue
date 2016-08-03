@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+      <modules>
+        <Yli_Queue>
+          <version>0.1.0</version>
+        </Yli_Queue>
+      </modules>
+      <global>
+          <helpers>
+            <queue>
+              <class>Yli_Queue_Helper</class>
+            </queue>
+          </helpers>
+          <models>
+             <queue>
+                <class>Yli_Queue_Model</class>
+             </queue>
+          </models>
+      </global>
+</config>
