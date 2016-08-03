@@ -6,6 +6,7 @@ Magento队列操作类
     <global>
         <queue>        	
         	<core>
+        	    <!--<adapter_model>Activemq</adapter_model>-->
         		<adapter_model>Yli_Rqueue_Model_Redis</adapter_model>
         		<maxMessages>10</maxMessages>
         		<connection>
